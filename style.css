@@ -1,0 +1,13 @@
+.box {
+  border: solid black 2px;
+  background: red;
+  margin: 5px;
+  padding: 5px;
+  font-size: 25px;
+}
+.parent {
+  border: solid black 2px;
+}
+div {
+  margin-bottom: 5px;
+}

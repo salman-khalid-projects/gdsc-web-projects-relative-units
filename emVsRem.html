@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em VS rem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        .one-em {
+            font-size: 1em;
+        }
+        .one-rem {
+            font-size: 1rem;
+        }
+
+        .two-rem {
+            font-size: 2rem;
+        }
+        .two-em {
+            font-size: 2em;
+        }
+        .parent {
+            font-size: 30px;
+        }
+    </style>
+
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+    <hr>
+    <div class="parent">
+        <div class="one-rem">1rem</div>
+        <div class="one-em">1em</div>
+        <div class="two-rem">2rem</div>
+        <div class="two-em">2em</div>
+    </div>
+</body>
+</html>

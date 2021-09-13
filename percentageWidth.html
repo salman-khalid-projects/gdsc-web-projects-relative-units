@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage VS pixels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .one-hundred-pixels {
+            width: 100px;
+        }
+        .parent {
+            width: 150px;
+        }
+    </style>
+
+    <div class="box fifty-percent">50%</div>
+    <div class="box one-hundred-pixels">100px</div>
+    <hr>
+    <div class="parent">
+        <div class="box fifty-percent">50%</div>
+        <div class="box one-hundred-pixels">100px</div>
+    </div>
+</body>
+</html>
